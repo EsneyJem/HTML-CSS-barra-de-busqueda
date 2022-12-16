@@ -1,0 +1,73 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+ body{
+    font-family: sans-serif;
+ } 
+ body h2{
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    color: rgb(103, 102, 102);
+ }
+
+  .search-bar{
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 100px auto
+  }
+
+  .search-bar:focus-within{
+    border: solid 1px #aaa;
+    box-shadow: 1px 3px 5px rgb(41, 40, 40, 0.2);
+  }
+
+  .search-bar input{
+    border: none;
+    outline: none;
+    pad: 10px;
+    font-size: 18px;
+    flex: auto;
+  }
+  .search-bar .action{
+    display: flex;
+    gap: 10px;
+  }
+  .search-bar .action button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #999;
+    transition: transform 0.35s;
+  }
+  .search-bar .action button:hover{
+    color: #2979e2;
+    transform: translateY(-3px);
+  }
